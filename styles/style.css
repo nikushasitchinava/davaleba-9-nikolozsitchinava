@@ -2,3 +2,90 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+.twodivs {
+    display: flex;
+    justify-content: center;
+    width: 956%;
+    height: 1000%;
+}
+
+
+
+
+
+
+
+
+.divtext {
+    width: 235px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.t1 {
+    font-weight: 400%;
+    font-size: 17px;
+    color: #636060;
+    margin-bottom: 9px;
+}
+
+.t2 {
+    font-weight: 400%;
+    font-size: 28px;
+    color: #010101;
+    margin-bottom: 37px;
+}
+
+.t3 {
+    font-weight: 400%;
+    font-size: 28px;
+    color: #636060;
+}
+
+
+
+
+
+
+
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 638;
+    height: 1000px;
+}
+
+
+.image {
+    width: 286px;
+    height: 195px;
+}
+
+
+.card {
+    width: 286px;
+    height: 312px;
+}
+
+
+.cardtexth {
+    font-weight: 400%;
+    font-size: 19px;
+    color: #343232;
+    margin-top: 23px;
+}
+
+
+.carddesc {
+    font-weight: 400%;
+    font-size: 18px;
+    color: #636060;
+    margin-top: 9px;
+}
