@@ -12,10 +12,11 @@ body {
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     position: fixed;
     justify-content: end;
-    gap: 30px;
+    gap: 70px;
     height: 84px;
     right: 78px;
     top: 0;
@@ -44,7 +45,6 @@ body {
     font-size: 17px;
     justify-content: space-between;
     color: #636060;
-    margin-right: 78px;
     margin-top: 33px;
 }
 
