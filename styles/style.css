@@ -6,6 +6,7 @@
 
 body {
     padding-top: 84px;
+    padding-bottom: 140px;
 }
 
 
@@ -53,8 +54,54 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .largephotodiv {
     display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.limagephotodiv {
+    width: 625px;
+    position: absolute;
+}
+
+.imagetext {
+    position: absolute;
+    display: flex;
+    font-weight: 700;
+    font-size: 79px;
+    color: white;
+
+}
+
+
+.smallimagetext {
+    position: absolute;
+    display: flex;
+    font-weight: 400;
+    font-size: 19px;
+    color: white;
+
 }
 
 
@@ -84,11 +131,14 @@ body {
 
 
 
+
+
+
 .twodivs {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 1000%;
+    flex-wrap: wrap;
 }
 
 
@@ -96,7 +146,6 @@ body {
 
 .divtext {
     width: 235px;
-    height: 700px;
     display: flex;
     flex-direction: column;
     margin-right: 83px;
@@ -131,13 +180,27 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .cards {
     display: flex;
     flex-direction: row;
     width: 638;
     gap: 33px;
+    justify-content: space-between;
     flex-wrap: wrap;
     display: inline-block;
+    margin-right: 33px;
 }
 
 
@@ -174,14 +237,24 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
 .cards2 {
     display: flex;
     flex-direction: row;
     display: inline-block;
-    justify-content: start;
+    justify-content: space-between;
     width: 638;
     gap: 33px;
     flex-wrap: wrap;
+    margin-right: 33px;
 }
 
 
@@ -190,7 +263,7 @@ body {
     display: flex;
     flex-direction: row;
     display: inline-block;
-    justify-content: start;
+    justify-content: space-between;
     width: 638;
     gap: 33px;
     flex-wrap: wrap;
