@@ -12,15 +12,21 @@ body {
 
 .header {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     flex-direction: row;
     position: fixed;
     justify-content: end;
-    gap: 70px;
+    gap: 50px;
     height: 84px;
     right: 78px;
     top: 0;
     z-index: 2;
+}
+
+.h1div {
+    display: flex;
+    max-width: 180px;
+    min-width: 140px;
 }
 
 .background {
@@ -35,6 +41,7 @@ body {
 #geolab {
     margin-top: 24px;
     margin-left: 88px;
+    margin-right: 50px;
 }
 
 
